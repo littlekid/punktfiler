@@ -23,11 +23,8 @@ Plug 'rking/ag.vim'
 " Automatically add end when entering new line in Elixir/Ruby for example.
 Plug 'tpope/vim-endwise'
 
-" emmet - html autocompletion
+" html auto completion
 Plug 'mattn/emmet-vim'
-
-" Nerdtree
-Plug 'scrooloose/nerdtree'
 
 " Elixir settings for vim
 Plug 'elixir-lang/vim-elixir'
@@ -38,6 +35,7 @@ Plug 'plasticboy/vim-markdown/'
 
 Plug 'jlong/sass-convert.vim'
 Plug 'godlygeek/tabular'
+Plug 'scrooloose/nerdtree'
 
 " Initialize plugin system
 call plug#end()
